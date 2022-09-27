@@ -1,6 +1,6 @@
 <template>
     <default-field :field="field">
-        <template slot="field">
+        <template v-slot:field>
             <div class="relative">
                 <input
                     type="text"
